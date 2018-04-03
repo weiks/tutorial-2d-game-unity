@@ -12,14 +12,15 @@ public class MenuScript : MonoBehaviour
     }
 
 	private void CheckBalance() {
-		Quarters.Quarters.Instance.GetAccountBalance (delegate (User.Account.Balance balance) {
-			Debug.Log("Balance Check Success");
-			TransferQuarters(2);
-		}, delegate (string error) {
-			Debug.Log("Balance Check Error: " + error);
-		});
+//		Quarters.Quarters.Instance.GetAccountBalance (delegate (User.Account.Balance balance) {
+//			Debug.Log("Balance Check Success");
+//			TransferQuarters(2);
+//		}, delegate (string error) {
+//			Debug.Log("Balance Check Error: " + error);
+//		});
+//   GetAccountBalance is broken
 
-//		TransferQuarters(2);
+		TransferQuarters(2);
 	}
 
 	private void TransferQuarters (int quantity) {
