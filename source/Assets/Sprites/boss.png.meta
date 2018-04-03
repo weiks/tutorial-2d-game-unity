@@ -1,32 +1,52 @@
 fileFormatVersion: 2
 guid: df71115658e362c4e88099dc2eb66656
 TextureImporter:
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: boss_0
+    21300002: boss_1
+    21300004: boss_2
+    21300006: boss_3
+    21300008: boss_4
+    21300010: boss_5
+    21300012: boss_6
+    21300014: boss_7
+    21300016: boss_8
+    21300018: boss_9
+    21300020: boss_10
+    21300022: boss_11
+  externalObjects: {}
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -34,18 +54,43 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings:
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   - buildTarget: iPhone
     maxTextureSize: 1024
-    textureFormat: -2
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
     compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: boss_0
+    - serializedVersion: 2
+      name: boss_0
       rect:
         serializedVersion: 2
         x: 58
@@ -53,8 +98,13 @@ TextureImporter:
         width: 698
         height: 675
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_1
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_1
       rect:
         serializedVersion: 2
         x: 1370
@@ -62,8 +112,13 @@ TextureImporter:
         width: 77
         height: 122
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_2
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_2
       rect:
         serializedVersion: 2
         x: 1337
@@ -71,8 +126,13 @@ TextureImporter:
         width: 283
         height: 110
       alignment: 9
-      pivot: {x: .346469611, y: .45842284}
-    - name: boss_3
+      pivot: {x: 0.3464696, y: 0.45842284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_3
       rect:
         serializedVersion: 2
         x: 2070
@@ -80,8 +140,13 @@ TextureImporter:
         width: 149
         height: 139
       alignment: 9
-      pivot: {x: .330425501, y: .200608954}
-    - name: boss_4
+      pivot: {x: 0.3304255, y: 0.20060895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_4
       rect:
         serializedVersion: 2
         x: 66
@@ -89,8 +154,13 @@ TextureImporter:
         width: 650
         height: 722
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_5
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_5
       rect:
         serializedVersion: 2
         x: 957
@@ -98,8 +168,13 @@ TextureImporter:
         width: 596
         height: 609
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_6
       rect:
         serializedVersion: 2
         x: 1947
@@ -107,8 +182,13 @@ TextureImporter:
         width: 132
         height: 143
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_7
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_7
       rect:
         serializedVersion: 2
         x: 1916
@@ -116,8 +196,13 @@ TextureImporter:
         width: 221
         height: 163
       alignment: 9
-      pivot: {x: .685096145, y: .605467379}
-    - name: boss_8
+      pivot: {x: 0.68509614, y: 0.6054674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_8
       rect:
         serializedVersion: 2
         x: 1857
@@ -125,8 +210,13 @@ TextureImporter:
         width: 156
         height: 57
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_9
       rect:
         serializedVersion: 2
         x: 2156
@@ -134,8 +224,13 @@ TextureImporter:
         width: 138
         height: 117
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_10
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_10
       rect:
         serializedVersion: 2
         x: 93
@@ -143,8 +238,13 @@ TextureImporter:
         width: 631
         height: 637
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: boss_11
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: boss_11
       rect:
         serializedVersion: 2
         x: 1790
@@ -152,6 +252,14 @@ TextureImporter:
         width: 193
         height: 143
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
